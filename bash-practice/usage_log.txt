@@ -1,0 +1,35 @@
+   10  git status
+   12  git statuse
+   13  git status
+   15  git status
+   28  git init
+   30  touch .gitignore
+   31  git add README.md
+   32  git add .gitignore
+   33  git status
+   34  git commit -m "Initial commit add README and gitignore"
+   35  git status
+   36  git push origin -u master
+   37  git remote -v
+   38  [200~git remote add origin git@github.com:nochulu/cultureofdevelopmentOborova.git
+   39  git branch -M main
+   40  git remote add origin git@github.com:nochulu/cultureofdevelopmentOborova.git
+   41  git branch -M main
+   42  git push -u origin main
+   43  git status
+   44  git add scrypt.py
+   45  git status
+   46  git commit -m "Scrypt"
+   47  git status
+   48  git push -u origin main
+   51  git status
+   53  git status
+   54  touch ./bash-practice/.gitkeep
+   55  git status
+   56  git add bash-practice/
+   57  git status
+   58  git commit -m "Started bash-practice lesson (created directory for lesson)"
+   59  git satus
+   71  git status
+   76  history | grep git
+   77  history | grep git > usage_log.txt
