@@ -15,8 +15,19 @@ def test_bug_addition_enough():
     assert add_with_bug(2,2) == 4, "Function didn't returned 4"
     assert add_with_bug(0,0) == 0, "Function didn't returned 0"
     #assert add_with_bug(5,6) == 11
-    print("Test BUG ADDITION PASSED)
+    print("Test BUG ADDITION PASSED")
+
+def test_addition_dublicated_logic():
+    #bad test since it relies on absense of "+" in add()
+    assert add(6,3) == 6+3
+    print("Test DUBLICATED LOGIC PASSED (could get some bugs in)")
+    #good test since input and output are independent in add()
+    assert add(6,3) == 9
+    print("Test DUBLICATED LOGIC PASSED")
+
 if name == '__main__':
     test_addition_basic()
     test_bug_addition_notsufficent()
+    test_addition_dublicated_logic()
     test_bug_addition_enough()
+
